@@ -1,0 +1,5 @@
+# Ignorar archivos de respaldo de editor de texto
+*~
+
+# Ignorar archivos temporales
+*.swp
