@@ -2,16 +2,16 @@
 
 update() {
 
-apt-get update;
+sudo apt-get update;
 
-apt-get upgrade;
+sudo apt-get upgrade;
     
 if [ $? -ne 0 ]; then
     echo "UBUNTU NO SE ACTUALIZO CORRECTAMENTE "
 else 
-    apt-get autoclean;
-    apt-get clean;
-    apt-get autoremove
+    sudo apt-get autoclean;
+    sudo apt-get clean;
+    sudo apt-get autoremove
     echo "UBUNTU SE ACTUALIZO CORRECTAMENTE "        
 fi
 }
