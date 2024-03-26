@@ -4,6 +4,15 @@
 
 Repositorio de scripts de shell para Linux: Automatiza tareas, administra sistemas y simplifica tu experiencia en entornos Linux. Contribuye y descubre scripts útiles para mejorar tu productividad.
 
+## Uso
+Para usar un script, script.sh, dale permisos de ejecución:
+```
+chmod +x script.sh
+```
+Luego ejecútalo con:
+```
+./install_nvm_zsh.sh
+```
 ## Bienvenido
 
 Este repositorio alberga una colección de scripts de shell diseñados para mejorar la experiencia de los usuarios de sistemas Linux. Desde automatización de tareas hasta herramientas de administración del sistema, nuestros scripts están destinados a simplificar y mejorar tu trabajo en entornos Linux.

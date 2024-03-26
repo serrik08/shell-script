@@ -28,7 +28,6 @@ update() {
     else
         echo "CURL YA ESTA INSTALADO."
     fi
-
     # Verificar la instalación
     curl --version
 
